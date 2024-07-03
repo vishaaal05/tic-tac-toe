@@ -19,7 +19,7 @@ function TicTacToe() {
               className="cell"
               key={index}
               onClick={() => handleClick(index)}
-            //   disabled={b !== null}
+              disabled={b !== null}
             >
               {b}
             </button>
